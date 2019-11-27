@@ -12,8 +12,7 @@
 
 body {
   margin: 0;
-  position: fixed;
-  height: 100vh;
+height: 1000px;
   width: 100vw;
   padding: var(--unit-1);
 }

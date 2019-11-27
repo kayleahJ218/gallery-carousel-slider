@@ -1,3 +1,4 @@
+
 <app-carousel [autoPlayDuration]="5000" animation="slide" [isNavigationVisible]="true" [isThumbnailsVisible]="true" [slides]="slides"
  [slideTemplateRef]="slide" [thumbnailTemplateRef]="thumbnail"></app-carousel>
 <ng-template #slide let-slide>
@@ -20,3 +21,35 @@
         'height': '100%'
       }"></div>
 </ng-template>
+<button type="button" class="btn btn-info">Clothing</button>
+		<button type="button" class="btn btn-info">Shoes & Accesories</button>
+		<button type="button" class="btn btn-info">Local Retail Outlets</button>
+
+<!-- Products page -->
+		<div class="image" style="height: 220vh; width: 100%; border: solid black 2px; background-color: red;"
+			[ngStyle]="{'background': ' url (' + imageURL + ') no-repeat 0 0'}">
+
+
+    </div>
+
+<!-- Reviews -->
+<div style="height: 70vh; width: 100%; border: solid black 2px; background-color: purple;"> 
+<h1>Reviews</h1>
+  <div class="big-review-div">
+    <div class="smaller-review-div">
+      <h1>Person 1</h1>
+    </div>
+    <div class="smaller-review-div">
+      <h1>Person 2</h1>
+    </div>
+  </div>
+
+   <div class="big-review-div">
+    <div class="smaller-review-div">
+      <h1>Person 1</h1>
+    </div>
+    <div class="smaller-review-div">
+      <h1>Person 2</h1>
+    </div>
+  </div>
+</div>
