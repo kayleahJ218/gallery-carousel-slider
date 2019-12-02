@@ -1,13 +1,17 @@
-
+<div class="main-title-div">
+  <h1 class="main-title">Shopping in Seattle</h1>
+  </div>
 <app-carousel [autoPlayDuration]="5000" animation="slide" [isNavigationVisible]="true" [isThumbnailsVisible]="true" [slides]="slides"
  [slideTemplateRef]="slide" [thumbnailTemplateRef]="thumbnail"></app-carousel>
 <ng-template #slide let-slide>
 	<div [ngStyle]="{
-      'background-size': 'cover',
+      'background-size': 'contain',
       'background-image': 'url(' + slide.url + ')',
       'background-repeat': 'no-repeat',
       'width': '100%',
-      'height': '100%'
+      'height': '100%',
+      'background-position': 'center',
+      'background-color': 'rgba(0,0,0.5)'
     }">
 	</div>
 </ng-template>
@@ -29,7 +33,8 @@
 		<div class="image" style="height: 220vh; width: 100%; border: solid black 2px; background-color: red;"
 			[ngStyle]="{'background': ' url (' + imageURL + ') no-repeat 0 0'}">
 <div class="grid-container">
-  <div><b>Glasswing Shop</b>
+  <div class="mid-div"><b>Glasswing Shop</b>
+  <img src="https://lh5.googleusercontent.com/p/AF1QipP9hLTeLlYluxZTPuybTJ1DqU97FCWGgVJ9dQ1d=w600-h485-p-k-no"/>
 WebsiteDirections
 Save
 4.5
@@ -54,7 +59,8 @@ Tuesday
 Wednesday
 11AM–7PM
 </div>
-  <div><b>Visette Boutique</b>
+  <div class="mid-div"><b>Visette Boutique</b>
+ <img src="https://lh5.googleusercontent.com/p/AF1QipMV6uXvgwtbN4RivWgdDCSzFBhjLlxSRKlUlHuc=w600-h650-p-k-no"/>
 5.0
 12 Google reviews
 Women's clothing store in Seattle, Washington
@@ -64,7 +70,8 @@ Hours: Open now ·
 Add full hours
 Phone: (206) 928-9898
 </div>
-  <div><b>Velouria</b>
+  <div class="mid-div"><b>Velouria</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipOZBOnOV11ZSamAadK_d8FlPlNb0bSXbjUfTMGq=w203-h360-k-no"/>
 4.8
 12 Google reviews
 Women's clothing store in Seattle, Washington
@@ -82,14 +89,16 @@ Closed
 Tuesday
 11AM–7PM
 </div>  
-  <div><b>Sway and Cake</b>
+  <div class="mid-div"><b>Sway and Cake</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipNPIjVkD4z9Z1X8AAmFysELRoClzK1Kpz2VEnMN=w600-h485-p-k-no"/>
 3.6
 8 Google reviews
 $$$Clothing store in Seattle, Washington
 Trendy boutique for an eclectic selection of designer women's clothing & jewelry designs.
 Address: 1124 E Pike St, Seattle, WA 98122
 Hours: Open ⋅ Closes 7PM Phone: (206) 466-602</div>
-  <div><b>Baby & Company</b>
+  <div class="mid-div"><b>Baby & Company</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipNqSQr1SAiAy71fzPPl-KZls2B4_LHUXaAfwelm=w400-h488-p-k-no"/>
 WebsiteDirections
 Save
 4.0
@@ -114,7 +123,8 @@ Tuesday
 Wednesday
 10AM–6PM
 Phone: (206) 448-4077</div>
-  <div><b>Pipe and Row</b>
+  <div class="mid-div"><b>Pipe and Row</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipO-X3qk3-g3eAuouXm0fna1MkAsrYyJMFlqrKK_=w453-h414-k-no"/>
 4.7
 16 Google reviews
 Women's clothing store in Seattle, Washington
@@ -123,14 +133,13 @@ Address: 611 N 35th St, Seattle, WA 98103
 Hours: Open ⋅ Closes 7PM
 Products and Services: places.singleplatform.com
 Phone: (206) 632-0720</div>  
-  <div>7</div>
-  <div>8</div>
+
 </div>
 
     </div>
 
 <!-- Reviews -->
-<div style="height: 70vh; width: 100%; border: solid black 2px; background-color: purple;"> 
+<div style="; width: 100%; border: solid black 2px; background-color: purple;"> 
 <h1>Reviews</h1>
   <div class="big-review-div">
     <div class="smaller-review-div">
@@ -186,6 +195,7 @@ jessica notman
  a year ago
 Love Sway and Cake! The clothes and jewelry are always beautiful and the customer service is impressive. I always feel special when I shop here and find exactly what I’m looking for... plus a little extra :) Highly recommend!
 
+    </div>
     </div>
     <div class="big-review-div">
     <div class="smaller-review-div">

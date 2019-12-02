@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   slides = [
     {
-      url: 'https://lh5.googleusercontent.com/p/AF1QipMV6uXvgwtbN4RivWgdDCSzFBhjLlxSRKlUlHuc=w600-h650-p-k-no'
+      url: 'https://lh5.googleusercontent.com/p/AF1QipPODzt9VeYqgDxlQ6-GLL0Kfm2G9NegoCURlavV=w600-h485-p-k-no'
     },
     {
       url: 'https://lh5.googleusercontent.com/p/AF1QipPvh6ulzBQckAAp-M97HqZ3GwqHzh_GoMHUpPec=w600-h420-p-k-no'
@@ -31,29 +31,5 @@ export class AppComponent  {
     {
       url: 'https://lh5.googleusercontent.com/p/AF1QipNLUJm8yltVALVGdSlXJ882861OOw1jAMuSn0Gf=w600-h485-p-k-no'
     },
-    {
-      url: ''
-      },
-    {
-      url: ''
-    },
-    {
-      url: ''
-    },
-    {
-      url: ''
-    },
-    {
-      url: ''
-    },
-    {
-      url: ''
-    },
-    {
-      url: ''
-    },
-    {
-      url: '' 
-    }
   ]
 }

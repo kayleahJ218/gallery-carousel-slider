@@ -1,7 +1,16 @@
-app-carousel {
- 
+.main-title-div {
+ background-color: gray;
+ margin: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.main-title {
+text-align: center;
+color: whitesmoke;
+font-size: 60px;
+}
 .big-review-div {
   display: flex;
   width: 100%;
@@ -16,16 +25,17 @@ app-carousel {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  background-color:;
-  padding: 10px;
+ height: 100%;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
 }
-
-.grid-container > div {
-  background-color:white;
+.mid-div {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  flex-direction: column;
+  width: 45%;
+  background-color: #fff;
+  margin: 20px;
 }
